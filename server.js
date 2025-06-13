@@ -6,7 +6,7 @@ const PORT = 3000;
 
 // 🔧 MySQL Connection for local setup
 const db = mysql.createConnection({
-  host: 'localhost',         // local MySQL server
+  host: 'your-remote-mysql-host.com',         // local MySQL server
   user: 'root',              // your MySQL username (default is 'root')
   password: 'anvesh@@1434',              // your password (often empty for localhost)
   database: 'instadbb',        // the database you created
